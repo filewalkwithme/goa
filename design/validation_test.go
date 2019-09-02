@@ -6,9 +6,9 @@ import (
 	"os"
 	"path"
 
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/design/apidsl"
-	"github.com/goadesign/goa/dslengine"
+	. "github.com/filewalkwithme/goa/design"
+	. "github.com/filewalkwithme/goa/design/apidsl"
+	"github.com/filewalkwithme/goa/dslengine"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -428,7 +428,7 @@ var _ = Describe("Validation", func() {
 		)
 
 		BeforeEach(func() {
-			enc = &EncodingDefinition{MIMETypes: []string{"application/foo"}, Encoder: true, PackagePath: "github.com/goadesign/goa/encoding/foo"}
+			enc = &EncodingDefinition{MIMETypes: []string{"application/foo"}, Encoder: true, PackagePath: "github.com/filewalkwithme/goa/encoding/foo"}
 			oldGoPath = build.Default.GOPATH
 
 			var err error
@@ -472,7 +472,7 @@ var _ = Describe("Validation", func() {
 
 		Context("with package in vendor", func() {
 			BeforeEach(func() {
-				packagePath := path.Join(cellarPath, "vendor/github.com/goadesign/goa/encoding/foo")
+				packagePath := path.Join(cellarPath, "vendor/github.com/filewalkwithme/goa/encoding/foo")
 
 				Ω(os.MkdirAll(packagePath, 0777)).ShouldNot(HaveOccurred())
 				Ω(ioutil.WriteFile(path.Join(packagePath, "encoding.go"), []byte("package foo"), 0777)).ShouldNot(HaveOccurred())

@@ -1,8 +1,8 @@
 package design
 
 import (
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/design/apidsl"
+	. "github.com/filewalkwithme/goa/design"
+	. "github.com/filewalkwithme/goa/design/apidsl"
 )
 
 var _ = API("media", func() {

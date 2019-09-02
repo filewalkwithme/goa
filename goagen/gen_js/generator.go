@@ -11,9 +11,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/goa/goagen/utils"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/goagen/codegen"
+	"github.com/filewalkwithme/goa/goagen/utils"
 )
 
 //NewGenerator returns an initialized instance of a JavaScript Client Generator
@@ -260,7 +260,7 @@ func (g *Generator) generateExample() error {
 	imports := []*codegen.ImportSpec{
 		codegen.SimpleImport("net/http"),
 		codegen.SimpleImport("github.com/dimfeld/httptreemux"),
-		codegen.SimpleImport("github.com/goadesign/goa"),
+		codegen.SimpleImport("github.com/filewalkwithme/goa"),
 	}
 	if err := file.WriteHeader(fmt.Sprintf("%s JavaScript Client Example", g.API.Name), "js", imports); err != nil {
 		return err

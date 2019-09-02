@@ -15,9 +15,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/goa/goagen/utils"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/goagen/codegen"
+	"github.com/filewalkwithme/goa/goagen/utils"
 )
 
 //NewGenerator returns an initialized instance of a JavaScript Client Generator
@@ -168,7 +168,7 @@ func GenerateController(force, regen bool, appPkg, outDir, pkg, name string, r *
 
 	imports := []*codegen.ImportSpec{
 		codegen.SimpleImport("io"),
-		codegen.SimpleImport("github.com/goadesign/goa"),
+		codegen.SimpleImport("github.com/filewalkwithme/goa"),
 		codegen.SimpleImport(imp),
 		codegen.SimpleImport("golang.org/x/net/websocket"),
 	}
@@ -290,8 +290,8 @@ func (g *Generator) createMainFile(mainFile string, funcs template.FuncMap) (err
 	appPkg := path.Join(outPkg, "app")
 	imports := []*codegen.ImportSpec{
 		codegen.SimpleImport("time"),
-		codegen.SimpleImport("github.com/goadesign/goa"),
-		codegen.SimpleImport("github.com/goadesign/goa/middleware"),
+		codegen.SimpleImport("github.com/filewalkwithme/goa"),
+		codegen.SimpleImport("github.com/filewalkwithme/goa/middleware"),
 		codegen.SimpleImport(appPkg),
 	}
 	file.Write([]byte("//go:generate goagen bootstrap -d " + g.DesignPkg + "\n\n"))

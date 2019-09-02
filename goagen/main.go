@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/goa/goagen/meta"
-	"github.com/goadesign/goa/goagen/utils"
-	"github.com/goadesign/goa/version"
+	"github.com/filewalkwithme/goa/goagen/codegen"
+	"github.com/filewalkwithme/goa/goagen/meta"
+	"github.com/filewalkwithme/goa/goagen/utils"
+	"github.com/filewalkwithme/goa/version"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
@@ -246,7 +246,7 @@ package and tool and the Swagger specification for the API.
 }
 
 func run(pkg string, c *cobra.Command) ([]string, error) {
-	pkgPath := fmt.Sprintf("github.com/goadesign/goa/goagen/gen_%s", pkg[3:])
+	pkgPath := fmt.Sprintf("github.com/filewalkwithme/goa/goagen/gen_%s", pkg[3:])
 	pkgSrcPath, err := codegen.PackageSourcePath(pkgPath)
 	if err != nil {
 		return nil, fmt.Errorf("invalid plugin package import path: %s", err)

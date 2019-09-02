@@ -4,11 +4,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/design/apidsl"
-	"github.com/goadesign/goa/dslengine"
-	"github.com/goadesign/goa/goagen/codegen"
-	genapp "github.com/goadesign/goa/goagen/gen_app"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/design/apidsl"
+	"github.com/filewalkwithme/goa/dslengine"
+	"github.com/filewalkwithme/goa/goagen/codegen"
+	genapp "github.com/filewalkwithme/goa/goagen/gen_app"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

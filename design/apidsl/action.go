@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/dslengine"
 )
 
 // Files defines an API endpoint that serves static assets. The logic for what to do when the

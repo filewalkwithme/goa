@@ -1,8 +1,8 @@
 package apidsl
 
 import (
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/dslengine"
 )
 
 // Type implements the type definition dsl. A type definition describes a data structure consisting

@@ -3,7 +3,7 @@ package msgpack
 import (
 	"io"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 	"github.com/ugorji/go/codec"
 )
 

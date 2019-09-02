@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 
 	"context"
 )

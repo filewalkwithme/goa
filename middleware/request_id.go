@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 
 	"context"
 )

@@ -8,15 +8,15 @@ import (
 
 	"time"
 
-	"github.com/goadesign/goa/design"
-	genjs "github.com/goadesign/goa/goagen/gen_js"
-	"github.com/goadesign/goa/version"
+	"github.com/filewalkwithme/goa/design"
+	genjs "github.com/filewalkwithme/goa/goagen/gen_js"
+	"github.com/filewalkwithme/goa/version"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Generate", func() {
-	const testgenPackagePath = "github.com/goadesign/goa/goagen/gen_js/test_"
+	const testgenPackagePath = "github.com/filewalkwithme/goa/goagen/gen_js/test_"
 
 	var outDir string
 	var files []string

@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/dslengine"
 )
 
 // API implements the top level API DSL. It defines the API name, default description and other
@@ -49,7 +49,7 @@ import (
 //		Consumes("application/json")
 //		Produces("application/gob")
 //		Produces("application/json", func() {   // Custom encoder
-//			Package("github.com/goadesign/goa/encoding/json")
+//			Package("github.com/filewalkwithme/goa/encoding/json")
 //		})
 //		ResponseTemplate("static", func() {	// Response template for use by actions
 //			Description("description")

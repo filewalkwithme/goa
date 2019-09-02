@@ -1,8 +1,8 @@
 package apidsl
 
 import (
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/dslengine"
 )
 
 // NOTE: the following functions are in this file so that IncompatibleDSL can compute the stack

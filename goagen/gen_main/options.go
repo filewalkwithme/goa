@@ -1,6 +1,6 @@
 package genmain
 
-import "github.com/goadesign/goa/design"
+import "github.com/filewalkwithme/goa/design"
 
 //Option a generator option definition
 type Option func(*Generator)

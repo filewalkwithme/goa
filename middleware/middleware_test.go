@@ -6,7 +6,7 @@ import (
 
 	"context"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 )
 
 // Helper that sets up a "working" service

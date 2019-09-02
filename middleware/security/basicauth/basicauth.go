@@ -5,7 +5,7 @@ import (
 
 	"context"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 )
 
 // ErrBasicAuthFailed means it wasn't able to authenticate you with your login/password.

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 
 	"context"
 )

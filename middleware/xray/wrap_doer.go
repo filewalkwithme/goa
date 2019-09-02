@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/goadesign/goa/client"
-	"github.com/goadesign/goa/middleware"
+	"github.com/filewalkwithme/goa/client"
+	"github.com/filewalkwithme/goa/middleware"
 )
 
 // wrapDoer is a client.Doer middleware that will create xray subsegments for traced requests.

@@ -1,8 +1,8 @@
 package codegen_test
 
 import (
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/goagen/codegen"
+	"github.com/filewalkwithme/goa/design"
+	"github.com/filewalkwithme/goa/goagen/codegen"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

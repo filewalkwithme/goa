@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/goadesign/goa/design"
+	"github.com/filewalkwithme/goa/design"
 )
 
 type (

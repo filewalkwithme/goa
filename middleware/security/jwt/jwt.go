@@ -11,7 +11,7 @@ import (
 	"context"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/goadesign/goa"
+	"github.com/filewalkwithme/goa"
 )
 
 // New returns a middleware to be used with the JWTSecurity DSL definitions of goa.  It supports the

@@ -5,8 +5,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/goadesign/goa"
-	"github.com/goadesign/goa/middleware"
+	"github.com/filewalkwithme/goa"
+	"github.com/filewalkwithme/goa/middleware"
 )
 
 // TInterface is an interface for go's testing.T

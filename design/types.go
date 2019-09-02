@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goadesign/goa/dslengine"
+	"github.com/filewalkwithme/goa/dslengine"
 	"github.com/gofrs/uuid"
 )
 
